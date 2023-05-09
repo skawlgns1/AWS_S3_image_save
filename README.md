@@ -17,7 +17,9 @@ Content-Disposition: form-data; name="file"; filename="my-image.jpg"
 }
 
 
-<이미지삭>
+
+
+<이미지삭제>
 
 #request
 
