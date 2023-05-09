@@ -14,7 +14,7 @@ Content-Disposition: form-data; name="file"; filename="my-image.jpg"
 #response
 
 {
-  "image": "https://redhood.s3.ap-northeast-2.amazonaws.com/1234my-imag.png"
+  "image": "https://my-bucket.s3.region.amazonaws.com/1234my-imag.png"
 }
 
 
@@ -24,5 +24,5 @@ Content-Disposition: form-data; name="file"; filename="my-image.jpg"
 
 DELETE /images
 {
- "image":"https://my-bucket.s3.ap-northeast-2.amazonaws.com/1234my-image.jpg"
+ "image":"https://my-bucket.s3.region.amazonaws.com/1234my-image.jpg"
 }
